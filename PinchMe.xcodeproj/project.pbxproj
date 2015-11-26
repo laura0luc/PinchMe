@@ -14,6 +14,8 @@
 		8D045B2A1BD9455A007686B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D045B281BD9455A007686B8 /* LaunchScreen.storyboard */; };
 		8D045B351BD9455B007686B8 /* PinchMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D045B341BD9455B007686B8 /* PinchMeTests.swift */; };
 		8D045B401BD9455B007686B8 /* PinchMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D045B3F1BD9455B007686B8 /* PinchMeUITests.swift */; };
+		8D045B4E1BD94AB7007686B8 /* yosemite-meadows.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D045B4D1BD94AB7007686B8 /* yosemite-meadows.png */; settings = {ASSET_TAGS = (); }; };
+		8D045B501BD94AC8007686B8 /* CheckImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D045B4F1BD94AC8007686B8 /* CheckImage.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		8D045B3B1BD9455B007686B8 /* PinchMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinchMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D045B3F1BD9455B007686B8 /* PinchMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchMeUITests.swift; sourceTree = "<group>"; };
 		8D045B411BD9455B007686B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D045B4D1BD94AB7007686B8 /* yosemite-meadows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yosemite-meadows.png"; sourceTree = "<group>"; };
+		8D045B4F1BD94AC8007686B8 /* CheckImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CheckImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		8D045B1E1BD9455A007686B8 /* PinchMe */ = {
 			isa = PBXGroup;
 			children = (
+				8D045B4F1BD94AC8007686B8 /* CheckImage.png */,
+				8D045B4D1BD94AB7007686B8 /* yosemite-meadows.png */,
 				8D045B1F1BD9455A007686B8 /* AppDelegate.swift */,
 				8D045B211BD9455A007686B8 /* ViewController.swift */,
 				8D045B231BD9455A007686B8 /* Main.storyboard */,
@@ -231,9 +237,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D045B501BD94AC8007686B8 /* CheckImage.png in Resources */,
 				8D045B2A1BD9455A007686B8 /* LaunchScreen.storyboard in Resources */,
 				8D045B271BD9455A007686B8 /* Assets.xcassets in Resources */,
 				8D045B251BD9455A007686B8 /* Main.storyboard in Resources */,
+				8D045B4E1BD94AB7007686B8 /* yosemite-meadows.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
